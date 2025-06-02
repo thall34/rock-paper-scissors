@@ -1,0 +1,100 @@
+/* Stylesheet for Rock Paper Scissors */
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    flex: 0 0 auto;
+    border-style: none;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+.rock {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(24, 98, 171);
+    background-image: url(./images/rock.png);
+    background-size: contain;
+}
+
+.paper {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(194, 194, 58);
+    background-image: url(./images/paper.png);
+    background-size: contain;
+}
+
+.scissors {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(174, 66, 66);
+    background-image: url(./images/scissors.png);
+    background-size: contain;
+}
+
+.header, .footer {
+    flex: 0;
+    text-align: center;
+    background-color: rgb(24, 98, 171);
+    padding: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(150, 150, 150);
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.win, .lose {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 50px;
+    background-color: rgb(207, 207, 207);
+}
+
+.selection-results {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: rgb(207, 207, 207);
+}
+
+.scores {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: rgb(207, 207, 207);
+}

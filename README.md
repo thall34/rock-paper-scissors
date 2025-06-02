@@ -1,8 +1,9 @@
 # rock-paper-scissors
 
 A Javascript program to play Rock Paper Scissors against a CPU opponent
-Accepts a string input from the human user -> converts it to all lowercase
+Accepts a button unput from the human user which activates a round of play
 Randomly generates a choice for the computer opponent as a string
 Declares the winner after comparing the strings
 Increments the score up by 1 for the winner
-Game will be 5 rounds that keeps track of the overall score and declares a winner at the end
+Plays through rounds until the human or computer score reaches 5
+Declares an overall winner and deactivates the buttons so no more inputs can be made
